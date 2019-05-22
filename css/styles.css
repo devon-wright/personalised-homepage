@@ -1,0 +1,65 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgrey;
+    width: 100%;
+    min-width: 790px;
+
+}
+
+.image-prop{
+    background-image: url("../resources/bg.jpg");
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body{
+
+}
+
+#outer-container{
+
+    width: 800px;
+    height: 600px;
+    margin: 60px auto 0px auto;
+}
+
+#search-bar{
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: grey;
+}
+
+#inner-container{
+    height: 530px;
+    background-color: transparent;
+}
+
+#left{
+    background-color: black;
+    height: 530px;
+    width: 200px;
+    display: inline-block;
+}
+
+#middle{
+    background-color: black;
+    height: 530px;
+    width: 341px;
+    display: inline-block;
+}
+
+#right{
+    background-color: black;
+    height: 530px;
+    width: 250px;
+    display: inline-block;
+}
